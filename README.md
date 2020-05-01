@@ -14,4 +14,5 @@ This allows users to reduce the number of songs downloaded on their devices. A l
 6. Run `Playlist-manager.py`
 
 ## Contact me
-#####<i class="far fa-envelope" aria-hidden="true" href="mailto:drew.13@mchsi.com"></i> ####<i class="fab fa-twitter" aria-hidden="true" href="https://twitter.com/13_Schmit"></i>
+##### [Email](mailto:drew.13@mchsi.com)
+##### [Twitter](https://twitter.com/13_Schmit)
