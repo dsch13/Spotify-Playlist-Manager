@@ -5,8 +5,8 @@ This allows users to reduce the number of songs downloaded on their devices. A l
 
 ## Using this script
 1. Obtain spotify developer credentials and put the client id and client secret in `credentials.py` as:
-  *`spot_id=`
-  *`spot_secret=`
+ *`spot_id=`
+ *`spot_secret=`
 2. In `Playlist_URI.py` and `Playlist-manager.py` replace the `username = 'Your spotify username here'` with your spotify username.
 3. Run `Playlist_URI.py`
 4. Find the URI of the playlists you would like to use as for the master, and smaller playlist. These should look like `spotify:playlist:...`
