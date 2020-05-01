@@ -1,4 +1,4 @@
-# Spotify Downlaoded Playlist Manager
+# Spotify Downloaded Playlist Manager
 
 This allows users to reduce the number of songs downloaded on their devices. A large playlist is randomly sampled to put songs into a smaller, more downloadable, playlist. This requires the [spotipy](https://spotipy.readthedocs.io/en/2.12.0/#installation) library. 
 
