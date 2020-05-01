@@ -30,7 +30,7 @@ def load_tracks(tracks, trackList):
     return trackList
 
 
-username = 'drew.13'
+username = 'Your username here'
 scope = 'user-library-read playlist-modify-private playlist-modify-public'
 spot_uri = 'http://localhost:8888/callback'
 
@@ -47,9 +47,9 @@ except AttributeError:
 client_credentials_manager = SpotifyClientCredentials(client_id=spot_id, client_secret=spot_secret)
 sp = spotipy.Spotify(token)
 
-# This is the URI of my large playlist
-masterURI = 'spotify:playlist:4nc38EGqKnC2AiHui67t0o'
-smallURI = 'spotify:playlist:3nqeJJTPZH750j9DNDRkCh'
+# Playlist URI's can be found using Playlist_URI.py
+masterURI = 'Large playlist URI'
+smallURI = 'small playlist URI'
 playlist = sp.user_playlist(username, masterURI)
 # Removing all unrecognized characters
 playlist['name'] = ''.join(c for c in playlist['name'] if c <= '\uFFFF')
